@@ -1,0 +1,12 @@
+body{
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.interface{
+    margin: 0;
+    padding: 15px;
+    background-color: rgb(114, 231, 114);
+    text-align: center;
+    color: white;
+}

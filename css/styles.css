@@ -1,0 +1,86 @@
+/* estilo da pagina de login cod*/
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    /* Centralização Perfeita com Flexbox */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgb(124, 201, 211); /* Cor de fallback caso a imagem falhe */
+    
+
+}
+
+/* O restante do seu CSS (.container, inputs, etc.) permanece igual */
+.container {
+    max-width: 400px;
+    width: 100%;
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+    justify-content: center; 
+    text-align: center;
+    padding: 20px;
+    border: 2px solid rgb(203, 226, 233);
+    border-radius: 20px;
+    background-color: rgb(169, 228, 228);
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.container h1 {
+    margin: 0;
+    text-align: center;
+    color: white;
+}
+
+.container p{
+    font-size: 16px;
+    color: white;
+}
+
+.container input, 
+.container button {
+    width: 100%;
+    max-width: 300px;
+    padding: 12px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+.container input {
+    margin-bottom: 20px;
+}
+
+.container input:last-child {
+    margin-bottom: 0;
+}
+
+.container img {
+    border-radius: 50%;
+    width: 120px;
+    height: auto;
+    display: block;
+    margin: 0 auto 15px auto;
+    
+
+}
+
+button {
+    cursor: pointer;
+    background-color: #333;
+    color: white;
+    font-weight: bold;
+    border: none;
+}   
+
+/* Estilo da pagina principal*/
+body{
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
